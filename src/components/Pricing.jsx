@@ -132,14 +132,10 @@ const Pricing = () => {
             </span>
           </div>
           <div className="flex gap-2 md:w-10/12 justify-end items-center md:px-8">
-            <p className="text-base md:text-sm text-GrayishBlue">
-              Monthly&nbsp;Billing
-            </p>
+            <p className="text-sm text-GrayishBlue">Monthly&nbsp;Billing</p>
             <CustomSwitch checked={checked} onChange={handleSwitchChange} />
             <div className="flex gap-2">
-              <p className="text-base md:text-sm text-GrayishBlue">
-                Yearly&nbsp;Billing
-              </p>
+              <p className="text-sm text-GrayishBlue">Yearly&nbsp;Billing</p>
               <div
                 className={`text-sm px-2 rounded-full flex md:hidden justify-center items-center font-semibold bg-LightGrayishRed text-LightRed`}
               >
