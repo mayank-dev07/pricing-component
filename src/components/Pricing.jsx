@@ -1,5 +1,4 @@
-"use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { SliderThumb } from "@mui/material/Slider";
 import Title from "./Title";
 import Trial from "./Trial";
@@ -92,7 +91,9 @@ const Pricing = () => {
           } `}
         >
           <div className="px-12 flex justify-center md:justify-between items-center w-full text-xl ">
-            <p className={`text-GrayishBlue`}>{pageview}&nbsp;PAGEVIEW</p>
+            <p className={`text-GrayishBlue tracking-widest text-lg`}>
+              {pageview}&nbsp;PAGEVIEW
+            </p>
             <div className="hidden md:flex justify-center items-center">
               <span className="flex justify-center items-center">
                 <span
